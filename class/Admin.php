@@ -5,6 +5,10 @@ class Admin extends DbConnection{
     public function __construct(){
         parent::__construct();
     }
+    class Admin extends DbConnection{
+    public function __construct(){
+        parent::__construct();
+    }
     
 
     public function run_query($sql_query){
